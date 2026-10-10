@@ -1,0 +1,33 @@
+{
+  "best_model": "Random Forest",
+  "test_ratio": 0.2,
+  "train_rows": 15672,
+  "test_rows": 3919,
+  "n_features": 58,
+  "models": [
+    {
+      "model": "Linear Regression",
+      "MAE": 27.7035,
+      "RMSE": 58.6743,
+      "R2": 0.5537,
+      "train_R2": 0.6082,
+      "train_time_s": 0.14
+    },
+    {
+      "model": "Random Forest",
+      "MAE": 26.0712,
+      "RMSE": 57.6863,
+      "R2": 0.5686,
+      "train_R2": 0.669,
+      "train_time_s": 5.8
+    },
+    {
+      "model": "Gradient Boosting",
+      "MAE": 28.7532,
+      "RMSE": 57.933,
+      "R2": 0.5649,
+      "train_R2": 0.6696,
+      "train_time_s": 48.93
+    }
+  ]
+}
